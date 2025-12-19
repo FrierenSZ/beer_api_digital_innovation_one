@@ -21,11 +21,11 @@ public class BeerDTO {
     private Long id;
 
     @NotNull
-    @Size(min = 1, max = 200)
+    @Size(min = 1, max = 210)
     private String name;
 
     @NotNull
-    @Size(min = 1, max = 200)
+    @Size(min = 1, max = 210)
     private String brand;
 
     @NotNull
